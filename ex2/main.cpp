@@ -9,12 +9,13 @@ int main()
 
     int num1;
 
-    cout << "Digite um número para saber se é par ou ímpar: ";
+    cout << "Definindo se o nÃºmero Ã© par ou Ã­mpar";
+    cout << "Digite um nÃºmero para saber se Ã© par ou Ã­mpar: ";
     cin >> num1;
 
     if (num1 % 2 == 0) {
-        cout << "O número é par";
+        cout << "O nÃºmero Ã© par";
     } else {
-        cout << "O número é impar";
+        cout << "O nÃºmero Ã© impar";
     }
 }
